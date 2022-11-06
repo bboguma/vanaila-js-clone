@@ -2,6 +2,129 @@
     display: none;
 }
 
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgba(255, 255, 255, 0.934);
+    margin:0;
+    height: 100%;
+}
+
+#main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#clock {
+    font-size: 120px;
+    margin: 200px 0 0 0;
+}
+
+#main h3{
+    font-size: 40px;
+    margin: 10px 0 35px 0;
+    text-transform: uppercase;
+}
+
+#login-form__text,
+#todo-form input {
+    height: 30px;
+    width: 530px;
+    font-size: 30px;
+    border:none;    
+    border-bottom: 3px solid white;
+    background-color: transparent;
+    color:white;
+    text-align: center;
+}
+
+
+#login-form__text:focus{
+    outline:none;
+}
+
+#greeting{
+    font-size: 45px;
+    margin: 10px 0;
+}
+
+#todo-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 35px 0 15px 0;
+}
+
+#todo-form input::placeholder{
+    color:white;
+}
+
+#todo-form input:focus{
+    outline:none;
+}
+
+
+#list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow:auto; 
+    height: 280px;
+}
+
+#list::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera*/
+}
+
+#todo-list {
+    margin: 0;
+    font-size: 30px;
+    font-weight: 600;
+    list-style:none;
+    padding:0;
+}
+
+#todo-list button{
+    background-color: transparent;
+    border:none;
+    font-size: 30px;
+    color:red;
+}
+
+
+#quote{
+    width:100%;
+    position: absolute; 
+    bottom: 55px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+#quote span:first-child{
+    font-size: 22px;
+}
+
+#weather{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position:absolute;
+    right:50px;
+    top:30px;
+}
+
+#weather span:first-child{
+    font-size:22px;
+}
+#weather span:last-child{
+    font-size:18px;
+}
+
+
 img{
     position: absolute;
     width: 100%;
@@ -13,3 +136,4 @@ img{
     z-index: -1;
     opacity: 0.8;
 }
+

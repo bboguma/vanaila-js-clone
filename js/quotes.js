@@ -28,8 +28,8 @@ const quotes = [
         author:"Thomas A. Edison",
     },
     {
-        quote:"Twenty years from now you will be more disappointed by the things you didn't do than by the ones you did do. So throw off the bowlines. Sail away from the safe harbor. Catch the trade winds in your sails. Explore. Dream. Discover.",
-        author:"Mark Twain",
+        quote:"A wise man will make more opportunities than he finds.",
+        author:"Sir Francis Bacon",
     },
     {
         quote:"Put yourself on view. This brings your talents to light.",
@@ -40,7 +40,6 @@ const quotes = [
         author:"Benjamin Franklin",
     },
 ];
-
 
 const quote = document.querySelector("#quote span:first-child");
 const author = document.querySelector("#quote span:last-child");
