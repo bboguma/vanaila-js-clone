@@ -61,7 +61,7 @@ body{
 }
 
 #todo-form input:focus{
-    outline:none;
+    /* outline:none; */
 }
 
 
